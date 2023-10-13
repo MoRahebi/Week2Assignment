@@ -1,43 +1,28 @@
-/* Apply styles to the main heading */
+
 h1 {
     font-size: 36px;
     text-align: center;
     color: black;
 }
 
-/* Apply styles to the navigation list items */
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
 
-/* Apply styles to the navigation links */
 nav a {
-    text-decoration: none;
-    color:blue;
+color:blue;
 }
 
-/* Apply styles to the main images */
 img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+
 }
 
-/* Apply styles to sub-headings */
 h2, h3 {
     font-size: 24px;
     text-align: center;
     color:black;
 }
 
-/* Apply styles to paragraphs */
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -45,42 +30,24 @@ p {
     text-align: center;
 }
 
-/* Apply styles to horizontal rules */
 hr {
     border: none;
     border-top: 2px solid #333;
     margin: 20px 0;
 }
 
-/* Apply styles to the form and its labels and inputs */
 form {
     text-align: center;
 }
 
-label {
-    display: block;
-    margin-top: 10px;
-    color:blue;
-}
-input[type="email"] {
-    
-    border-radius: 5px;
-    margin-top: 10px;
+label { 
+    color:black;
 }
 
-input[type="submit"] {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-
-/* Apply styles to the table */
 table {
-    margin: 20px auto;
+    margin: 10px auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 60%;
 }
 
 th, td {
@@ -96,9 +63,7 @@ th {
 div {
     text-align: center;
     background-color: rgb(186, 183, 183);
-    padding: 5px;
     
-
 }
 p {
     background-color: rgb(186, 183, 183);
