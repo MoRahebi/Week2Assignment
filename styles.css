@@ -1,5 +1,5 @@
 
-h1 {
+h1 { /*following properties added to adjust the main title*/
     font-size: 36px;
     text-align: center;
     color: black;
@@ -7,64 +7,64 @@ h1 {
 
 
 
-nav a {
+nav a { /*changed the color of our navigators to blue*/
 color:blue;
 }
 
-img {
+img {/*added auto margin and blocked display to the images*/
     display: block;
     margin: 0 auto;
 
 }
 
-h2, h3 {
+h2, h3 { /*following properties added to adjust h2 h3 titles*/
     font-size: 24px;
     text-align: center;
     color:black;
 }
 
-p {
+p {/*following properties added to adjust paragraph texts*/
     font-size: 16px;
     line-height: 1.5;
     margin: 20px 0;
     text-align: center;
 }
 
-hr {
+hr {/*following properties added to adjust horizontal lines*/
     border: none;
     border-top: 2px solid #333;
     margin: 20px 0;
 }
 
-form {
+form {/*following property added to align text in our form to the center*/
     text-align: center;
 }
 
-label { 
+label { /*following property added to adjust the color of our labels*/
     color:black;
 }
 
-table {
+table {/*following properties added to adjust our table*/
     margin: 10px auto;
     border-collapse: collapse;
     width: 60%;
 }
 
-th, td {
+th, td { /*following properties added to adjust and put border around table header and table data*/
     padding: 10px;
     border: 1px solid #ccc;
 }
 
-th {
+th {/*following properties added to adjust the color and text of our table header*/
     background-color:blue;
     color: white;
     text-align: left;
 }
-div {
+div {/*following properties added to the div */
     text-align: center;
     background-color: rgb(186, 183, 183);
     
 }
-p {
+p {/*following properties added to adjust color of the text in our paragraphs*/
     background-color: rgb(186, 183, 183);
 }
